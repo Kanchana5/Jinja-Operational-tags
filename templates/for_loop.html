@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>For loop</h1><center>
+    <h1>The student name is</h1>
+    {% for var in name %}
+    <h5>{{var}}</h5>
+    {% endfor %}
+    <h1>The hobbies of {{name}} are:</h1>
+    {% for i in hobbies %}
+    <h2>{{i}}</h2>
+    {% endfor %}</center>
+
+   <center><h1> <a href="{% url 'if_else' %}">Click here to go Back</a></h1></center>
+</body>
+</html>
